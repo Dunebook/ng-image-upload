@@ -17,7 +17,6 @@ class ImageFile {
 export class AppComponent {
   
   images: ImageFile[] = [];
-  imagesUploadProgress: number[] = [];
   imageUrls: string[] = [];
   favourites: string[] = [];
   message: string = null;
